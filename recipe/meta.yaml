@@ -1,4 +1,4 @@
-{% set version = "3.9.1" %}
+{% set version = "3.9.2" %}
 
 package:
   name: mercurial
@@ -7,7 +7,7 @@ package:
 source:
   fn: mercurial-{{ version }}.tar.gz
   url: https://mercurial-scm.org/release/mercurial-{{ version }}.tar.gz
-  sha256: 625e4fc7e85ec2278c2828bdc547fce74091b3bbe4d9eeeba2d61af51195df74
+  sha256: 69046a427c05e83097bf0145a1e37975ae0b6ba4430456e2beca3d2fd96583cf
 
 build:
   number: 0
