@@ -11,6 +11,18 @@ Summary: Source control management tool
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mercurial-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mercurial-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/mercurial-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mercurial-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mercurial-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mercurial-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/version.svg)](https://anaconda.org/conda-forge/mercurial)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/downloads.svg)](https://anaconda.org/conda-forge/mercurial)
+
 Installing mercurial
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `mercurial` available on your plat
 ```
 conda search mercurial --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mercurial-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mercurial-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/mercurial-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mercurial-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mercurial-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mercurial-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/version.svg)](https://anaconda.org/conda-forge/mercurial)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/downloads.svg)](https://anaconda.org/conda-forge/mercurial)
 
 
 Updating mercurial-feedstock
