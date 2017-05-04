@@ -18,8 +18,10 @@ build:
 requirements:
   build:
     - python
+    - setuptools  # [win]
   run:
     - python
+    - setuptools  # [win]
 
 test:
   commands:
