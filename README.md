@@ -14,14 +14,16 @@ Summary: Source control management tool
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mercurial-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mercurial-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/mercurial-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mercurial-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mercurial-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mercurial-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/mercurial-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/mercurial-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/mercurial-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/mercurial-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/mercurial-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/mercurial-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/version.svg)](https://anaconda.org/conda-forge/mercurial)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mercurial/badges/downloads.svg)](https://anaconda.org/conda-forge/mercurial)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mercurial-green.svg)](https://anaconda.org/conda-forge/mercurial) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mercurial.svg)](https://anaconda.org/conda-forge/mercurial) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mercurial.svg)](https://anaconda.org/conda-forge/mercurial) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mercurial.svg)](https://anaconda.org/conda-forge/mercurial) |
 
 Installing mercurial
 ====================
