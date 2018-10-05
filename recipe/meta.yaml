@@ -1,5 +1,5 @@
-{% set version = "4.7.1" %}
-{% set sha256 = "8503383c1c31842576516b803d07564216470887ca6388719e4c4089663b410c" %}
+{% set version = "4.7.2" %}
+{% set sha256 = "97f0594216f2348a2e37b2ad8a56eade044e741153fee8c584487e9934ca09fb" %}
 
 package:
   name: mercurial
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   skip: True  # [py3k]
   script: python setup.py install
 
