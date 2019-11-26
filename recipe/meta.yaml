@@ -1,5 +1,5 @@
-{% set version = "4.9.1" %}
-{% set sha256 = "1bdd21bb87d1e05fb5cd395d488d0e0cc2f2f90ce0fd248e31a03595da5ccb47" %}
+{% set version = "5.2" %}
+{% set sha256 = "ff030e923f03ee15c91191996fcb099bfcfa60c7df263be227f67b6a65d36194" %}
 
 package:
   name: mercurial
@@ -12,14 +12,15 @@ source:
 
 build:
   number: 0
-  skip: True  # [py3k]
-  script: python setup.py install
+  skip: True  # [win and py3k]
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - {{ compiler('c') }}
   host:
     - python
+    - pip
     - setuptools  # [win]
   run:
     - python
@@ -38,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - ngoldbaum
+    - paugier
