@@ -6,7 +6,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: mercurial-{{ version }}.tar.gz
   url: https://mercurial-scm.org/release/mercurial-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
@@ -31,9 +30,15 @@ test:
 
 about:
   home: http://mercurial-scm.org
-  license: GPL2
+  license: GPL-2.0-or-later
+  license_family: GPL
   license_file: COPYING
   summary: Source control management tool
+  description: |
+    Mercurial is a distributed SCM tool written in Python.
+    It is used by a number of large projects that require
+    fast, reliable distributed revision control, such as
+    Mozilla.
 
 extra:
   recipe-maintainers:
