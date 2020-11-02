@@ -1,5 +1,5 @@
-{% set version = "5.4" %}
-{% set sha256 = "1df8d1978aefcbb65dc51e3666a452583f47aeaf3c5682e4c00a3b23cd805d6a" %}
+{% set version = "5.6" %}
+{% set sha256 = "dfa7b3b5082783763710504f242ec487a5d801dc4bcd701cdad4b6ffc1f062c2" %}
 
 package:
   name: mercurial
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win and py3k]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
