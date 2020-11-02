@@ -3,7 +3,7 @@ About mercurial
 
 Home: http://mercurial-scm.org
 
-Package license: GPL2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mercurial-feedstock/blob/master/LICENSE.txt)
 
