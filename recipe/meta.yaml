@@ -1,5 +1,5 @@
-{% set version = "5.4" %}
-{% set sha256 = "1df8d1978aefcbb65dc51e3666a452583f47aeaf3c5682e4c00a3b23cd805d6a" %}
+{% set version = "5.6" %}
+{% set sha256 = "dfa7b3b5082783763710504f242ec487a5d801dc4bcd701cdad4b6ffc1f062c2" %}
 
 package:
   name: mercurial
@@ -11,8 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  skip: true  # [win and py3k]
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -35,6 +34,11 @@ about:
   license: GPL-2.0-or-later
   license_file: COPYING
   summary: Source control management tool
+  description: |
+    Mercurial is a distributed SCM tool written in Python.
+    It is used by a number of large projects that require
+    fast, reliable distributed revision control, such as
+    Mozilla.
 
 extra:
   recipe-maintainers:
