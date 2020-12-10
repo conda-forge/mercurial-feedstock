@@ -11,12 +11,13 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: {{ PYTHON }} setup.py install --rust -vv
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ compiler('rust') }}
   host:
     - python
     - pip
