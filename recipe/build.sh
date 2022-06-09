@@ -9,4 +9,5 @@ echo "ls rust/target/release/*" && \
   ls rust/target/release/* && \
   echo "ls rust/target/release" && \
   ls rust/target/release
+  find . -name "librusthg.so"
 }
