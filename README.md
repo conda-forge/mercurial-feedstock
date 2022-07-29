@@ -329,6 +329,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@ngoldbaum](https://github.com/ngoldbaum/)
 * [@paugier](https://github.com/paugier/)
 
