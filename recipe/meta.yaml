@@ -1,5 +1,5 @@
-{% set version = "6.3.2" %}
-{% set sha256 = "cfe6eeb5dd893ab32c0b79c1531aac420773e0fc837a35db3d4d92703df45a98" %}
+{% set version = "6.3.3" %}
+{% set sha256 = "13c97ff589c7605e80a488f336852ce1d538c5d4143cfb33be69bdaddd9157bd" %}
 
 package:
   name: mercurial
