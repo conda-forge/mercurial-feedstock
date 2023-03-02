@@ -1,11 +1,11 @@
-About mercurial
-===============
+About mercurial-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mercurial-feedstock/blob/main/LICENSE.txt)
 
 Home: http://mercurial-scm.org
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mercurial-feedstock/blob/main/LICENSE.txt)
 
 Summary: Source control management tool
 
