@@ -1,5 +1,5 @@
-{% set version = "6.7.2" %}
-{% set sha256 = "1c22070c05dfaac41ff88a39ce2508dde480f0dd05d45d7efab4c5cdc6ddd806" %}
+{% set version = "6.7.3" %}
+{% set sha256 = "00196944ea92738809317dc7a8ed7cb21287ca0a00a85246e66170955dcd9031" %}
 
 package:
   name: mercurial
@@ -18,6 +18,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('rust') }}
   host:
     - python
