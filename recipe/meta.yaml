@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py>311 and linux]
+  # skip: true  # [py>311 and linux]
 
 requirements:
   build:
@@ -24,10 +24,9 @@ requirements:
   host:
     - python
     - pip
-    - setuptools  # [win]
+    - setuptools
   run:
     - python
-    - setuptools  # [win]
 
 test:
   commands:
