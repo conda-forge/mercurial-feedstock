@@ -6,7 +6,7 @@ then
   sed -i'' "s/os.path.join('rust', 'target', 'release')/os.path.join('rust', 'target', os.environ.get('CARGO_BUILD_TARGET', ''), 'release')/" setup.py
 
   { # try
-  $PYTHON -m pip install --no-deps --ignore-installed -vv --no-use-pep517 --global-option --rust .
+  $PYTHON -m pip install --no-deps --ignore-installed -vv --config-settings --global-option=--rust .
   } || { # catch
   echo "ls rust/target/$CARGO_BUILD_TARGET/release" && \
     ls rust/target/$CARGO_BUILD_TARGET/release && \
