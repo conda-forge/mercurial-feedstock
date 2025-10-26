@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [[ "$PY_VER" == "3.14" ]]; then
+  export PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1
+fi
+
 if [[ $build_platform == "linux-64" ]];
 then
   export RUSTFLAGS="-C link-arg=-Wl,-rpath-link,$CONDA_PREFIX/lib -C link-arg=-Wl,-rpath,$CONDA_PREFIX/lib -L$CONDA_PREFIX/lib"
