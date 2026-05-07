@@ -1,5 +1,5 @@
 {% set name = "mercurial" %}
-{% set version = "7.1.2" %}
+{% set version = "7.2.2" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ce27b9a4767cf2ea496b51468bae512fa6a6eaf0891e49f8961dc694b4dc81ca
+  sha256: f2ec8e7eeef0500591706d374555f0ceb118822068e75fa3b32be07dd2184f6c
 
 build:
   number: 0
